@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1257</width>
+    <height>877</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>877</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/image/5556661.jpg);
+background-image: url(:/image/5556661.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>60</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Accounting</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Customer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_3">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>60</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fraud</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_4">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>190</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Transaction_db</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Payment_Gateway</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgba(0, 1, 1, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Refund</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>921</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>650</y>
+      <width>771</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0, 1, 1, 0.5);
+color:pink;
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_7">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>650</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgb(119, 0, 255);
+color:black;
+border:1px solid rgb(119, 0, 255);
+border-radius : 15px;
+}
+
+
+QPushButton:hover{
+background: rgb(255, 2, 108);
+border:1px solid red;
+}</string>
+    </property>
+    <property name="text">
+     <string>EXECUTE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1257</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="back.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1428</width>
+    <height>1017</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>1461</width>
+      <height>877</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/image/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg);
+background-image: url(:/image/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Group number of customers with Payment Refrence and State</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>160</y>
+      <width>581</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0, 1, 1, 0.25);
+color:rgb(119, 0, 255);
+border:1px solid rgb(119, 0, 255);
+font-family: &quot;Segoe UI&quot;, sans-serif;
+font-size:17px;
+color:rgb(250, 110, 157);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1461</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background: black;
+color: white;
+font-size: 27px;
+border-bottom-color: 7px solid white;</string>
+    </property>
+    <property name="text">
+     <string>                 DATA QUERIES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank states with the most customers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank states with the most merchants</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>States with the most Revenues</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>States with the most Refunds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>400</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank every customer with number of transactions in a specific year</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_8">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>360</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank every merchant with number of transactions in a specific year</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>440</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank merchants with most expenses</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_10">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>600</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank customers with most frauds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_11">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>720</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Merchants with most refunds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_12">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>480</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank merchants with most revenues</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_13">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>680</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Total transactions in a month</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_14">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>760</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Customers with most refunds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_15">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>560</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank merchants with most profits</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_16">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>520</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Most used Payement Reference by amount</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_17">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>640</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank merchants with most frauds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShowDatabase_18">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>800</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgba(0, 1, 1, 0.25);
+color:rgb(197, 149, 252);
+border:1px solid rgb(119, 0, 255);
+}
+
+
+QPushButton:hover{
+background: rgba(119, 0, 255, 0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rank the days with most Amount Transactions</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>920</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color :white;
+font-size : 17px;
+color:rgb(197, 149, 252);
+
+</string>
+    </property>
+    <property name="text">
+     <string>A Badal Product | thecloud | RazorPay</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>880</y>
+      <width>1451</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background: black;
+color: white;
+font-size: 27px;
+border-bottom-color: 7px solid white;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>60</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/image/logo.jpg);
+border-radius : 45%;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>1461</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(119,0,255);</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>ShowDatabase</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>ShowDatabase_2</zorder>
+   <zorder>ShowDatabase_3</zorder>
+   <zorder>ShowDatabase_4</zorder>
+   <zorder>ShowDatabase_5</zorder>
+   <zorder>ShowDatabase_6</zorder>
+   <zorder>ShowDatabase_8</zorder>
+   <zorder>ShowDatabase_9</zorder>
+   <zorder>ShowDatabase_10</zorder>
+   <zorder>ShowDatabase_11</zorder>
+   <zorder>ShowDatabase_12</zorder>
+   <zorder>ShowDatabase_13</zorder>
+   <zorder>ShowDatabase_14</zorder>
+   <zorder>ShowDatabase_15</zorder>
+   <zorder>ShowDatabase_16</zorder>
+   <zorder>ShowDatabase_17</zorder>
+   <zorder>ShowDatabase_18</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>line</zorder>
+   <zorder>label_6</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1428</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="back.qrc"/>
+ </resources>
+ <connections/>
+</ui>
